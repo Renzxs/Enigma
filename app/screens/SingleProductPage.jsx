@@ -57,7 +57,7 @@ export default function SingleProductPage() {
             <Text>{params.description}</Text>
             <Text>{params.description}</Text>
 
-            <View style={{height: 100}}></View>
+            <View style={{height: 80}}></View>
           </View>
         </ScrollView>        
       </View>

@@ -6,6 +6,7 @@ import Product1 from '../../assets/product1.png';
 import Product2 from '../../assets/product2.png';
 import Product3 from '../../assets/product3.png';
 import Product4 from '../../assets/product4.png';
+import FilterChips from '../components/FilterChips';
 
 
 export default function HomeScreen() {
@@ -58,6 +59,8 @@ export default function HomeScreen() {
 
         
           <LatestProduct products={products}/>
+
+          <FilterChips />
           
 
           <View style={{height: 110}}></View>
